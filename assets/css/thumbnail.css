@@ -1,0 +1,71 @@
+.field-name-thumbnail label.input-with-radio {
+  position: relative;
+}
+
+.field-name-thumbnail .field-grid-item {
+  position: relative;
+}
+
+.modal .field-name-thumbnail {
+  display: none;
+}
+
+.modal .field-name-name {
+  display: none;
+}
+
+input.radio.invisible {
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  top: 1em;
+  left: 3em;
+}
+
+input.radio.invisible:checked ~ label {
+  border-color: #8dae28
+}
+
+.specs {
+  position: relative;
+  height: 120px;
+  width: calc(100% - 180px - 1em);
+  vertical-align: top;
+  display: inline-block;
+  margin-left: calc(180px + 1em);
+}
+
+.spec-item {
+  list-style: none;
+  border-bottom: 1px solid rgb(245,245,245);
+  width: 100%;
+  overflow: hidden;
+}
+
+.spec-item:last-of-type {
+  border-bottom: none;
+}
+
+.structure-entry, .input-list-item, .input {
+  position: relative;
+}
+
+.input-list-item .input .thumbnail-frame {
+  position: absolute;
+  width: 180px;
+  height: 120px;
+  display: inline-block;
+  background-color: silver;
+  top: 0;
+  left: 0 !important;
+}
+
+.thumbnail-frame img, .thumbnail-frame video {
+  max-height: 100%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
