@@ -3,6 +3,6 @@
   "description": "Video Thumbnail Field for Kirby using FFMPEG.",
   "author": "Jonatan Eriksson <jonatan@tsto.org>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "kirby-plugin"
 }
